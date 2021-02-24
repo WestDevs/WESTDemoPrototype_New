@@ -1,0 +1,289 @@
+/* main{
+    margin: 0 auto 1em auto;
+}
+
+main > header {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 1em 0 0 0;
+}
+
+[class*="adv"] main .block {
+    padding: 0;
+}
+
+.content {
+    padding-bottom: 1em;
+}
+
+.jumbtron {
+    padding-top: 60px;
+}
+
+.h1Wrapper,
+article{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    clear: both;
+}
+
+#page-title{
+    padding: 0 0 0.5em 0;
+    line-height: normal;
+    text-indent: 1em; 
+    color: #35495C;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+section.left{
+    background-color: #DDDDDD;
+    min-height: 400px;
+    position: relative;
+    padding: 0 1em;
+    overflow: hidden;
+}
+
+.submenu {
+    padding: 1em;
+    display: block;
+    clear: both;
+}
+
+.contentpaneopen {
+    clear: both;
+    padding-top: 1em;
+}
+
+[class*="adv"] .left p, 
+[class*="adv"] .left a {
+    padding: 0 0 0 1em;
+}
+
+form {
+    clear: both;
+    padding: 1em;
+    margin: 0;
+}
+
+form[name="admin_learner_search"] fieldset, 
+form[name="admin_search"] fieldset {
+    padding: 1em;
+    background-color: #F5F5F5;
+}
+
+fieldset {
+    border: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+form[name="admin_tutor_search"] fieldset label, 
+form[name="admin_learner_search"] fieldset label, 
+form[name="admin_search"] fieldset label {
+    min-width: 6em;
+}
+
+fieldset legend {
+    text-indent: -2000%;
+    overflow: hidden;
+    font-size: 0;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+}
+
+fieldset > div {
+    width: 48%;
+    float: left;
+    clear: left;
+    padding: 0.5em 0 0.5em 1em;
+}
+
+form select {
+    float: left;
+}
+
+select {
+    border: 2px solid #BBBBBB;
+    border-radius: 0.25em;
+    width: 65%;
+    padding: 0.5em;
+}
+
+form fieldset label {
+    font-weight: normal;
+    line-height: 3em;
+    padding-right: 1em;
+    min-width: 4em;
+}
+
+form fieldset label, 
+form select {
+    float: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+fieldset input, select {
+    border: 2px solid #BBBBBB;
+    border-radius: 0.25em;
+    width: 65%;
+    padding: 0.5em;
+}
+
+a, a span, button, input {
+    transition: color .25s linear, background-color .20s linear .20s;
+}
+
+fieldset input[type="submit"] {
+    border: none;
+    border-radius: 0;
+    width: auto;
+    padding: 0.5em 1.5em;
+    margin-left: 1em;
+}
+
+button, 
+input[type="submit"], 
+input[type="button"], 
+input[type="reset"] {
+    background-color: #8C0707;
+    border: none;
+    color: #FFFFFF;
+    padding: 1em 1.5em 1em 1.5em;
+}
+
+form table {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+form thead {
+    background-color: #919191;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-indent: 1em;
+    border: none;
+}
+
+form tr:first-child {
+    border: none;
+}
+
+form th {
+    border: none;
+    padding: 0.5em 0;
+}
+
+.tableActions {
+    display: block;
+    padding: 1em;
+    background-color: #EEEEEE;
+    margin: 1em 0;
+}
+
+.tableActions > span {
+    display: block;
+    margin: 0.25em 0;
+}
+
+.tableActions .selection {
+    position: absolute;
+}
+
+.tableActions a {
+    padding: 0;
+    display: inline;
+}
+
+.tableActions .paginationWrapper {
+    display: block;
+    min-height: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.tableActions .paginationWrapper .pagination {
+    display: inline;
+}
+
+p a, 
+td a, 
+form a, 
+.textBlock a, 
+div.content .file a, 
+a.lrcategoryallpanel-view, 
+#dialogOverlay a, 
+#forgotPassword a, 
+a.learningPlanBack, 
+.ui-widget-content a {
+    position: relative;
+    border-bottom: 1px dotted #999999;
+}
+
+[class*="adv"] .left .pagination a.current {
+    font-weight: bold;
+}
+
+[class*="adv"] .left .pagination a {
+    padding: 0 0 0 1em;
+}
+
+.tableActions .actions {
+    padding: 1em 0 0 0;
+}
+
+.tableActions .actions input[type="button"] {
+    padding: 0.75em;
+}
+
+form thead select {
+    border: none;
+    color: #444444;
+    font-weight: normal;
+    margin: 0.5em;
+    padding: 0.25em;
+    width: auto;
+}
+
+form select {
+    float: left;
+}
+
+#s2g form td {
+    width: 33%;
+    text-indent: 1.5em;
+    padding: 0.5em 0;
+} */
+
+a {
+    color: #8C0707;
+    text-decoration: none;
+    border-bottom: 1px dotted #999999;
+}
+
+.learnerName
+{
+    color: #8C0707 !important;
+}
+
+
+/* form[name="admin_learner_search"] fieldset #searchBox, 
+form[name="admin_tutor_search"] fieldset #searchBox, 
+form[name="admin_search"] fieldset #searchBox {
+    float: right;
+    padding: 0.5em 1em 0.5em 0;
+    text-align: right;
+    clear: none;
+} */

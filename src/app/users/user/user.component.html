@@ -1,0 +1,21 @@
+<div class="jumbtron">
+    <form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off" class="col-md-5 form">
+      <h2 class="text-center text-primary">User</h2>
+      <input type="hidden" name="id" #id="ngModel" [(ngModel)]="formData.id">
+      <div class="form-group">
+        <input name="firstName" #firstName="ngModel" [(ngModel)]="formData.firstName" class="form-control" required
+          [ngClass]="{'is-invalid': form.controls['firstName']?.invalid && form.controls['firstName']?.touched}" placeholder="First Name">
+        <div class="invalid-feedback" *ngIf="firstName.invalid && firstName.touched">Please inform the user's first name.</div>
+      </div>
+      <div class="form-group">
+        <input name="lastName" #lastName="ngModel" [(ngModel)]="formData.lastName" class="form-control" placeholder="Last Name"
+          [ngClass]="{'is-invalid': form.controls['lastName']?.invalid && form.controls['lastName']?.touched}" required>
+        <div class="invalid-feedback" *ngIf="lastName.invalid && lastName.touched">Please inform the user's last name.</div>
+      </div>
+      <div class="form-group text-center">
+        <button class="btn btn-success mr-2" [disabled]="form.invalid" type="submit">Save</button>
+        <button class="btn btn-default" type="button" (click)="cancel()">Cancel</button>
+      </div>
+  
+    </form>
+  </div>
